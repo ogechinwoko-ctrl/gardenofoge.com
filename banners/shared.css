@@ -1,0 +1,10 @@
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--leaf:#23402a;--on-leaf:#eef2e4;--muted:#b5c2a6;--sun:#f1c75b;--clay:#d9531e;--seam:#95e57e;--paper:#f5f1e6}
+html,body{background:var(--leaf);color:var(--on-leaf);font-family:Manrope,sans-serif;overflow:hidden}
+.logo{display:block;background:var(--paper);-webkit-mask:url(../photos/logo-wordmark.png) center/contain no-repeat;mask:url(../photos/logo-wordmark.png) center/contain no-repeat;aspect-ratio:376/299}
+.label{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.22em;color:var(--sun)}
+h1{font-family:Fraunces,serif;font-weight:300;letter-spacing:-.02em;line-height:.98}
+h1 em{color:var(--sun);font-style:italic}
+.spaces{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
+.spaces b{color:var(--seam);font-weight:400}
+.photo{background:url(../photos/trellis-tunnel.jpg) center 40%/112% auto no-repeat;overflow:hidden}
